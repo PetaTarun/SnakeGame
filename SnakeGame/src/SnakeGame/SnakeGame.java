@@ -4,8 +4,11 @@ import javax.swing.JFrame;
 
 public class SnakeGame extends JFrame{
 	SnakeGame(){
+		super("SnakeGame");
+		add(new Board());
+		pack();
 		setLocationRelativeTo(null);
-		setSize(300,400);
+		setSize(300,300);
 		setVisible(true);
 	
 	}

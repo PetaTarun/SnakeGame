@@ -1,5 +1,9 @@
 package SnakeGame;
 
-public class Board {
+import javax.swing.JPanel;
 
+public class Board extends JPanel {
+	Board(){
+		
+	}
 }
